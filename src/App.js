@@ -12,7 +12,7 @@ function App() {
 const [data, setData] = useState(myInfo)
 
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor:"pink"}}>
       
       <h1> {data.name}</h1>
       <Contact mail = {myInfo.contact}/>   
